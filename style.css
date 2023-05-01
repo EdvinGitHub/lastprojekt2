@@ -1,0 +1,98 @@
+/* använd flera olika coluner som använder andra t.ex grid, coluner eller annat + antalet ska vara men än 6 olika*/
+a 
+{
+    color: #ffffff;
+}
+img
+{
+    margin-top: 1%;
+}
+body 
+{
+    /* background-color: lightslategrey; */
+    background-color: rgb(40, 40, 41);
+}
+.mid
+{
+    margin-left: 3%;
+}
+.small
+{
+    margin-left: 40%;
+    margin-top: -15%;
+    width: 50%;
+    height: 50%;
+}
+.down 
+{
+    margin-left: 15%;
+    background-color: rgb(20, 20, 169);
+    padding: 15px;
+    margin: 15px;
+    border: 1%;
+}
+.intro
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    margin-top: auto;
+    margin-left: auto;
+    size: 10cm;
+    color: white;
+
+}
+.inledning
+{
+    color: white;
+    margin-left:5%;
+}
+.suport
+{
+    
+    grid-column: auto;
+    display: grid;
+}
+.koll
+{
+
+    grid-row: auto;
+    display: grid;
+
+}
+.goll
+{
+    margin-top: 1%;
+    grid-row: auto;
+    display: grid;
+    
+}
+.noll
+{
+    margin-top: -25%;
+    margin-left: 50%;
+    color: white;
+} 
+.nol
+{
+    margin-top: -20%;
+    margin-left: 50%;
+    color: white;
+}
+.boll
+{
+    margin-top: 0%;
+    margin-right: 50%;
+    color: white;
+} 
+.bol
+{
+    margin-top: -10%;
+    margin-left: 50%;
+    color: white;
+}
+.download
+{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
